@@ -1,27 +1,62 @@
+header {
+  background-color: #f7ebf2;
+}
+body {
+  background: linear-gradient(
+    360deg,
+    rgb(242, 208, 220) 0%,
+    rgb(249, 248, 253) 80%
+  );
+  font-family: 'New York', Iowan Old Style, Apple Garamond, Baskerville,
+    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  margin: 0px;
+  padding: 0px;
+}
+
 ul {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
   list-style-type: none;
   display: flex;
   margin-inline: 200px;
   justify-content: space-evenly;
-  padding: 10px 0px 30px 0px;
+  margin-top: 0px;
+  padding: 40px 0px 30px 0px;
 }
 
 a {
   text-decoration: none;
-  color: #5f0564;
+  color: #000;
   letter-spacing: 2px;
-  font-family: 'New York', Iowan Old Style, Apple Garamond, Baskerville,
-    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
 .nav-bar {
-  box-shadow: 0px 23px 15px rgba(163, 161, 161, 0.2);
+  box-shadow: 5px 30px 30px #f7ebf2;
+  background-color: #f7ebf2;
+}
+
+.animation {
+  width: max-content;
 }
 
 li:hover {
-  text-shadow: -1px 4px 14px rgba(95, 5, 100, 0.9);
-  color: #5f0564;
+  text-shadow: 0px 6px 10px rgb(251, 106, 152);
+  color: #fc77a1;
+}
+
+#home-section {
+  text-align: center;
+  padding: 100px 0px 250px 0px;
+  margin: 180px;
+}
+
+#projects-section {
+  text-align: center;
+  padding: 100px;
+  margin: 100px;
+}
+
+#sprints-section {
+  text-align: center;
 }
