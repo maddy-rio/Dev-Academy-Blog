@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Box Model</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="html-css.css" />
+  </head>
+
+  <header class="nav-bar">
+    <ul>
+      <li>
+        <a class="nav-list" href="#home-section"></a>
+      </li>
+      <li>
+        <a class="nav-list" href="#sprints-section"></a>
+      </li>
+      <li>
+        <a class="nav-list" href="#projects-section"></a>
+      </li>
+    </ul>
+  </header>
+  <body>
+    <section class="heading">
+      <h1>CSS Box Model</h1>
+      <p class="sub-heading">Differences between margin, border, and padding</p>
+    </section>
+    <hr />
+    <section class="main">
+      <p>
+        To start with, it's important to understand what the CSS Box Model is
+        and how this is linked to HTML and CSS. The CSS Box Model is simply a
+        box that wraps around an HTML element. The box is made up of seperate
+        layers: padding, border, margin, and the centre of the box contains the
+        HTML content. Every HTML element you create is wrapped around a box that
+        can be manipulated using CSS.
+      </p>
+
+      <ul class="box-list">
+        <li>
+          <strong>Padding:</strong> Creates space around an HTML element (the
+          centre of the box)
+        </li>
+        <br />
+        <li>
+          <strong>Border:</strong> The border goes around the HTML element and
+          padding
+        </li>
+        <br />
+        <li>
+          <strong>Margin:</strong> Creates space around the border area - kind
+          of like padding for the border
+        </li>
+      </ul>
+      <section class="img">
+        <img
+          src="padding-properties.jpg"
+          alt="Diagram of the CSS Box Model"
+          width="350px"
+        />
+      </section>
+      <p>
+        You can use length units such as PX (Pixels) to adjust padding and
+        margin on all four sides of the box with the following CSS properties
+        for padding: padding-top, padding-right, padding-bottom, padding-left,
+        or you can simply use padding. You can use the following CSS properties
+        for margin: margin-top, margin-right, margin-bottom, margin-left, or
+        simply margin. This allows you to have more control over styling your
+        HTML elements. The border thickness and style type can also be changed
+        with length units and specific CSS properties.
+      </p>
+    </section>
+    <div class="grid">
+      <img src="shootingstarscopy.gif" alt="Shooting stars" width="400px" />
+      <img src="shootingstarscopy.gif" alt="Shooting stars" width="400px" />
+      <img src="shootingstarscopy.gif" alt="Shooting stars" width="400px" />
+    </div>
+  </body>
+</html>
