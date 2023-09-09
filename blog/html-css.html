@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="html-css.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
   </head>
 
   <header class="nav-bar">
@@ -23,12 +23,12 @@
   </header>
   <body>
     <section class="heading">
-      <h1>CSS Box Model</h1>
+      <h1 class="heading">CSS Box Model</h1>
       <p class="sub-heading">Differences between margin, border, and padding</p>
     </section>
-    <hr />
-    <section class="main">
-      <p>
+    <hr class="hr3" />
+    <section>
+      <p class="main">
         To start with, it's important to understand what the CSS Box Model is
         and how this is linked to HTML and CSS. The CSS Box Model is simply a
         box that wraps around an HTML element. The box is made up of seperate
@@ -37,7 +37,7 @@
         can be manipulated using CSS.
       </p>
 
-      <ul class="box-list">
+      <ul class="boxmodel-list">
         <li>
           <strong>Padding:</strong> Creates space around an HTML element (the
           centre of the box)
@@ -55,12 +55,13 @@
       </ul>
       <section class="img">
         <img
-          src="padding-properties.jpg"
+          src="../images/padding-properties.jpg"
           alt="Diagram of the CSS Box Model"
           width="350px"
         />
       </section>
-      <p>
+
+      <p class="main">
         You can use length units such as PX (Pixels) to adjust padding and
         margin on all four sides of the box with the following CSS properties
         for padding: padding-top, padding-right, padding-bottom, padding-left,
@@ -72,9 +73,21 @@
       </p>
     </section>
     <div class="grid">
-      <img src="shootingstarscopy.gif" alt="Shooting stars" width="400px" />
-      <img src="shootingstarscopy.gif" alt="Shooting stars" width="400px" />
-      <img src="shootingstarscopy.gif" alt="Shooting stars" width="400px" />
+      <img
+        src="../images/shootingstars.gif"
+        alt="Shooting stars"
+        width="400px"
+      />
+      <img
+        src="../images/shootingstars.gif"
+        alt="Shooting stars"
+        width="400px"
+      />
+      <img
+        src="../images/shootingstars.gif"
+        alt="Shooting stars"
+        width="400px"
+      />
     </div>
   </body>
 </html>
