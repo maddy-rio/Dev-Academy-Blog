@@ -158,7 +158,15 @@ hr {
 
 .main {
   padding: 0px 20px 0px 0px;
-  margin: 0px 300px 0px 300px;
+  margin: 0px 280px 35px 280px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.main2 {
+  padding-top: 35px;
+  margin: 0px 280px 0px 280px;
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
@@ -170,7 +178,7 @@ hr {
   text-align: center;
   display: inline-block;
   font-weight: normal;
-  margin: 0px 100px 20px 100px;
+  margin: 0px 50px 0px 100px;
 }
 
 .box-list {
@@ -183,8 +191,7 @@ hr {
 }
 
 .img {
-  padding-right: 150px;
-  margin-top: 30px;
+  padding-right: 120px;
   display: inline-block;
 }
 
@@ -250,4 +257,12 @@ hr {
 .sprints ul ul li {
   display: inline-block; /* Display menu items horizontally within the dropdown */
   margin-right: 8px; /* Add spacing between dropdown items */
+}
+
+.centered-content {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: center; /* Center text within the container if needed */
+  margin: 0px 140px 0px 140px;
 }
