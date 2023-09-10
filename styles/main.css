@@ -59,11 +59,10 @@ ul {
   font-size: 25px;
   font-weight: bold;
   list-style-type: none;
-  display: flex;
-  margin-inline: 400px;
   justify-content: space-evenly;
   margin-top: 0px;
   padding: 40px 0px 30px 0px;
+  line-height: 40px;
 }
 
 li {
@@ -157,10 +156,6 @@ hr {
   margin-bottom: 50px;
 }
 
-.sprints {
-  padding-bottom: 0px;
-}
-
 .main {
   padding: 0px 20px 0px 0px;
   margin: 0px 300px 0px 300px;
@@ -211,15 +206,11 @@ hr {
 }
 
 #sprints-section {
-  padding: 0px;
-  justify-content: space-evenly;
-  display: inline-block;
+  padding-bottom: 30px;
 }
 
 .sprints-section2 {
   padding: 0px;
-  justify-content: space-evenly;
-  display: inline-block;
 }
 
 #footer {
@@ -228,10 +219,35 @@ hr {
   margin-inline: 150px;
 }
 
-#dropdown-products {
-  display: none;
+/* Style the .sprints container as inline blocks */
+.sprints {
+  display: inline-block;
+  margin-right: 100px; /* Add spacing between Sprint One and Sprint Two */
+  margin-left: 50px;
 }
 
-#menu-products:hover #dropdown-products {
-  display: block;
+/* Style the top-level menu items */
+.sprints > ul > li {
+  display: inline-block; /* Display menu items horizontally */
+  position: relative; /* Position submenu relative to the menu item */
+}
+
+/* Style the dropdown menus */
+.sprints ul ul {
+  display: none; /* Hide dropdown menus by default */
+  position: absolute; /* Position them absolutely */
+  top: 60%; /* Position below the menu item */
+  left: 0; /* Align with the left edge of the menu item */
+  white-space: nowrap;
+}
+
+/* Show the dropdown menu on hover */
+.sprints ul li:hover ul {
+  display: block; /* Display the dropdown menu when hovering the menu item */
+}
+
+/* Style the individual dropdown menu items as inline blocks */
+.sprints ul ul li {
+  display: inline-block; /* Display menu items horizontally within the dropdown */
+  margin-right: 10px; /* Add spacing between dropdown items */
 }
