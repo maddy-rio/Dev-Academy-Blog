@@ -249,5 +249,5 @@ hr {
 /* Style the individual dropdown menu items as inline blocks */
 .sprints ul ul li {
   display: inline-block; /* Display menu items horizontally within the dropdown */
-  margin-right: 10px; /* Add spacing between dropdown items */
+  margin-right: 8px; /* Add spacing between dropdown items */
 }
