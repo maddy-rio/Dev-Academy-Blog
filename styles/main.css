@@ -121,7 +121,8 @@ hr {
 }
 
 .heading {
-  padding: 20px 0px 25px 0px;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 100px 0px 100px;
   font-size: 75px;
 }
 
@@ -153,12 +154,11 @@ hr {
   width: 670px;
   background-color: #000;
   height: 2px;
-  margin-bottom: 50px;
 }
 
 .main {
   padding: 0px 20px 0px 0px;
-  margin: 0px 280px 35px 280px;
+  margin: 0px 180px 0px 180px;
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
@@ -166,7 +166,7 @@ hr {
 
 .main2 {
   padding-top: 35px;
-  margin: 0px 280px 0px 280px;
+  margin: 0px 280px 35px 280px;
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
@@ -264,5 +264,5 @@ hr {
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
   text-align: center; /* Center text within the container if needed */
-  margin: 0px 140px 0px 140px;
+  margin: 0px 120px 0px 120px;
 }
