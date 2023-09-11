@@ -27,8 +27,9 @@
       <p class="sub-heading">Differences between margin, border, and padding</p>
     </section>
     <hr class="hr3" />
-    <section>
-      <p class="main2">
+    
+      <section class="main">
+      <p class="main-blocks">
         To start with, it's important to understand what the CSS Box Model is
         and how this is linked to HTML and CSS. The CSS Box Model is simply a
         box that wraps around an HTML element. The box is made up of seperate
@@ -36,32 +37,39 @@
         HTML content. Every HTML element you create is wrapped around a box that
         can be manipulated using CSS.
       </p>
+      </section>
 
       <div class="centered-content">
-        <ul class="boxmodel-list">
-          <li>
-            <strong>Padding:</strong> Creates space around an HTML element (the
-            centre of the box)
-          </li>
-          <li>
-            <strong>Border:</strong> The border goes around the HTML element and
-            padding
-          </li>
-          <li>
-            <strong>Margin:</strong> Creates space around the border area - kind
-            of like padding for the border
-          </li>
-        </ul>
-        <section class="img">
-          <img
-            src="../images/padding-properties.jpg"
-            alt="Diagram of the CSS Box Model"
-            width="350px"
-          />
-        </section>
+        <div class="content-container">
+          <div class="content">
+            <ul class="boxmodel-list">
+              <li>
+                <strong>Padding:</strong> Creates space around an HTML element
+                (the centre of the box)
+              </li>
+              <li>
+                <strong>Border:</strong> The border goes around the HTML element
+                and padding
+              </li>
+              <li>
+                <strong>Margin:</strong> Creates space around the border area -
+                kind of like padding for the border
+              </li>
+            </ul>
+             </div>
+        <div class="image">
+              <img
+                src="../images/padding-properties.jpg"
+                alt="Diagram of the CSS Box Model"
+                width="350px"
+              />
+            </section>
+          </div>
+        </div>
       </div>
 
-      <p class="main2">
+      <section class="main">
+      <p class="main-blocks">
         You can use length units such as PX (Pixels) to adjust padding and
         margin on all four sides of the box with the following CSS properties
         for padding: padding-top, padding-right, padding-bottom, padding-left,
