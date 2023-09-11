@@ -66,10 +66,6 @@ ul {
   line-height: 1.5;
 }
 
-li {
-  display: inline-block;
-}
-
 a {
   text-decoration: none;
   color: #000;
@@ -159,6 +155,13 @@ hr {
   letter-spacing: 2px;
 }
 
+.sub-heading3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  margin-bottom: 1vh;
+  color: #0d0d0d;
+}
+
 .hr2 {
   width: 1200px;
   background-color: #000;
@@ -169,14 +172,17 @@ hr {
   width: 670px;
   background-color: #000;
   height: 2px;
+  margin-bottom: 60px;
 }
 
 .main {
-  padding: 0px 20px 0px 0px;
+  padding: 0px 0px 0px 0px;
   margin: 0px 180px 0px 180px;
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .main2 {
@@ -185,6 +191,18 @@ hr {
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
+}
+
+.main-blocks {
+  padding: 40px;
+  margin: 0px 180px 0px 180px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  background-color: #ebd0eb93;
 }
 
 .boxmodel-list {
@@ -223,6 +241,16 @@ hr {
   color: black;
 }
 
+.main-blocks:hover {
+  box-shadow: 0px 0px 30px rgb(251, 106, 152, 0.9);
+  color: black;
+}
+
+.content-container:hover {
+  box-shadow: 0px 0px 30px rgb(251, 106, 152, 0.9);
+  color: black;
+}
+
 #home-section {
   text-align: center;
   margin: 100px;
@@ -235,8 +263,7 @@ hr {
 }
 
 .sprints-section2 {
-  padding: 40px;
-  margin-top: 50px;
+  padding: 20px;
 }
 
 #footer {
@@ -259,7 +286,7 @@ hr {
 .sprints ul ul {
   display: none;
   position: absolute;
-  top: 60%;
+  top: 100%;
   left: 0;
   white-space: nowrap;
 }
@@ -279,4 +306,38 @@ hr {
   justify-content: center;
   text-align: center;
   margin: 0px 120px 0px 120px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin: 0px 180px 0px 180px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  background-color: #ebd0eb93;
+}
+
+.content {
+  flex: 1;
+}
+
+.content2 {
+  flex: 1;
+  order: 2;
+}
+
+.image {
+  flex: 0;
+  padding-left: 80px;
+}
+
+.image2 {
+  flex: 0;
+  padding-right: 80px;
+  order: 1;
 }
