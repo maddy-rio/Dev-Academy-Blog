@@ -181,7 +181,7 @@ hr {
 
 .main {
   padding: 0px 0px 0px 0px;
-  margin: 0px 180px 0px 180px;
+  margin: 0px 0px 0px 0px;
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
@@ -191,7 +191,7 @@ hr {
 
 .main2 {
   padding-top: 35px;
-  margin: 0px 280px 35px 280px;
+  margin: 0px 0px 35px 0px;
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
